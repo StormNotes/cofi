@@ -2,7 +2,7 @@ body {
   font-family: 'Dancing Script', cursive;
   background-image: url("images/coffee-beans-21.jpg");
   width: 100%;
-  height: 134vh;
+  height: 155vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -154,15 +154,13 @@ section{}
   z-index: 1;
 }
 
-@media(min-width:561px) and (max-width:1200px){
-  body{ height: 170vh;}
+@media(min-width:577px) and (max-width:1280px){
+  body{ height: 197vh;}
 }
 /* For Phones*/
-@media(min-width:320px) and (max-width:560px){
-  body{ height: 215vh;}
-
+@media(min-width:360px) and (max-width:576px){
+  body{ height: 282vh;}
 }
-@media(max-width:356px){
-  body{ height: 135vh;}
-
+@media(max-width:320px) and (max-width:355px){
+  body{ height:348vh;}
 }
