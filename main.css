@@ -1,0 +1,168 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  background-image: url("images/coffee-beans-21.jpg");
+  width: 100%;
+  height: 134vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(254, 254, 254);
+  font-size: 32px;
+  padding: 30px;
+  text-align: center;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+section{}
+
+.flaticonCOPY {
+  display: none;
+}
+
+.contenedor1 {
+  text-align: center;
+  margin: 30px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.logo h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#OrderCoffee {
+  margin-top: 30px;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.79);
+  color: white;
+  border: 5px solid white;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+
+#OrderCoffee:hover {
+  cursor: pointer;
+  transform: translateY(12px);
+}
+
+.cofi {
+  padding: 15px;
+  display: none;
+  margin-top: 380px;
+}
+.cofi h2{margin-top: 30px;}
+
+.cofi img {
+  margin: 10px;
+  border: 12px solid white;
+  border-radius: 100px;
+  padding: 5px;
+  height: 100px;
+  width: 120px;
+}
+
+#OrderDenied {
+  display: none;
+  background: rgba(255, 146, 45, 0.62);
+  border-radius: 300px;
+}
+
+.cofi button {
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.43);
+  border-radius: 150px;
+  transition: 0.2s;
+}
+
+.cofi button:hover {
+  cursor: pointer;
+  transform: translateY(25px);
+}
+
+#coffee-order {
+  display: none;
+  margin-top: 100px;
+  transition: 1.2s;
+}
+
+#coffee-order h2{
+  padding-top: 10px;
+}
+
+
+#checkOrder {
+  margin: 15px auto;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.79);
+  color: white;
+  border: 5px solid white;
+  border-radius: 50px;
+  transition: 0.2s;
+  transform: translateY(22px);
+  animation: shake 1.5s;
+  animation-iteration-count: infinite;
+}
+
+#checkOrder:hover {
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(12deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-11deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(11deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(1deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 1px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.receip {
+  height: 400px;
+  width: 600px;
+  background: rgba(255, 255, 255, 0.49);
+  z-index: 1;
+}
+
+@media(min-width:561px) and (max-width:1200px){
+  body{ height: 170vh;}
+}
+/* For Phones*/
+@media(min-width:320px) and (max-width:560px){
+  body{ height: 215vh;}
+
+}
+@media(max-width:356px){
+  body{ height: 135vh;}
+
+}
